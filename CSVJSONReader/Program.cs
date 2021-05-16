@@ -20,7 +20,8 @@ namespace CSVJSONReader
             int requestNumber = 0;
 
             //name of json's property i.e cars
-            string itemToLookFor = "cars";
+            Console.WriteLine("Type property name:");
+            string itemToLookFor = Console.ReadLine();
 
             foreach (string line in allFileLines)
             {
